@@ -1,0 +1,48 @@
+{
+  "menu_items": [
+    {
+      "option": "📂 Home",
+      "example": "cd ~",
+      "commands": [
+        "cd ~"
+      ],
+      "colors": {
+        "example": "cyan"
+      }
+    },
+    {
+      "option": "🟢 Project Name",
+      "example": "cd /Users/username/Project-name",
+      "commands": [
+        "cd /Users/username/Project-name"
+      ],
+      "colors": {
+        "example": "cyan"
+      }
+    },
+    {
+      "option": "   Project Name ➤ Start app",
+      "example": "`npm run start`",
+      "commands": [
+        "cd /Users/username/Project-name",
+        "npm run start"
+      ],
+      "colors": {
+        "example": "yellow"
+      },
+      "padding": {
+        "option": 1
+      }
+    },
+    {
+      "option": "❌ Exit",
+      "example": "",
+      "commands": [
+        "exit"
+      ],
+      "colors": {
+        "option": "red"
+      }
+    }
+  ]
+}

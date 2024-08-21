@@ -3,12 +3,12 @@
 # Ensure jq and fzf are installed
 if ! command -v jq &> /dev/null; then
   echo "jq is required but not installed. Install it and try again."
-  exit 1
+  return
 fi
 
 if ! command -v fzf &> /dev/null; then
   echo "fzf is required but not installed. Install it and try again."
-  exit 1
+  return
 fi
 
 # Function to get color codes based on color names
